@@ -290,7 +290,7 @@
     display: grid;
     grid-template-columns: repeat(3, 350px);
     column-gap: 16px;
-    justify-content: center;
+    justify-content: spa;
   }
 
   &-item {
