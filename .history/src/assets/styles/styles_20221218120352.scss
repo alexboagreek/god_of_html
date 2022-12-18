@@ -1,0 +1,62 @@
+@import 'reset.scss';
+
+.section {
+    &-main {
+        padding-top: 40px;
+        position: relative;
+        max-width: 1920px;
+        margin: 0 auto;
+        min-height: 70vh;
+
+        &:after, &:before {
+            content: '';
+            height: 764px;
+            width: 1363px;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+        }
+
+        &:after {
+            background: url(../images/snow.gif) no-repeat center/cover;
+            opacity: 0.1;
+        }
+
+        &:before {
+            background: url(../images/bg.png) no-repeat center/cover;
+        }
+    }
+}
+
+.header {
+    align-items: center;
+
+    &-menu {
+        align-items: center;
+
+        &__button {
+            width: 25px;
+            height: 16px;
+            cursor: pointer;  
+            position: relative; 
+            z-index: 1; 
+            span {
+                width: 25px;
+                height: 2px;
+                background: $white;
+                position: relative;
+                display: block;
+
+                &::after, &::before {
+                    display: block;
+                    content: '';
+                    width: 12px;
+                    height: 2px;
+                    back
+                }
+            }
+        }
+    }
+}

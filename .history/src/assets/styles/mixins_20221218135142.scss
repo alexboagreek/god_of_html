@@ -1,0 +1,8 @@
+@import '../styles/colors.scss';
+
+@mixin button($bg: $violet) {
+    background: $bg;
+    border-radius: 6px;
+    padding: ;
+
+}
